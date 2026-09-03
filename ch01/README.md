@@ -42,3 +42,5 @@ int main(void) // 메인 함수 호출
     return 0;   // 코드 종료 
 }
 ```
+<img width="512" height="132" alt="ch01_cap" src="https://github.com/user-attachments/assets/4f4fe865-60a5-4a0e-818c-ab12a1ae7987" />
+

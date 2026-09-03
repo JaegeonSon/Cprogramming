@@ -25,22 +25,60 @@ double *pt;
 
 # 실습과제 4
 ```
-#define _CRT_SECURE_NO_WARNINGS   // 보안 오류 방지
-#pragma warning(disable:6031)   // 리턴 값 관련 경고 방지
-#include <stdio.h>   // 헤더 파일 선언
-
-int main(void) // 메인 함수 호출
-{
-    char a = 'A';   // 문자형 변수 a 선언 및 a를 문자형 상수 'A'로 초기화
-    int b = 36;   // 정수형 변수 b 선언 및 b를 정수형 상수 36으로 초기화
-    double c = 3.141592;   // 실수형 변수 c 선언 및 c를 실수형 상수 3.141592로 초기화 
-
-    printf("char형 변수 a의 주소 : %p\n", &a);   // a의 주소값 자체를 %p와 &기호를 사용해 출력
-    printf("int형 변수 b의 주소 : %p\n", &b);   // b의 주소값 자체를 %p와 &기호를 사용해 출력
-    printf("double형 변수 c의 주소 : %p\n", &c);   // c의 주소값 자체를 %p와 &기호를 사용해 출력
-
-    return 0;   // 코드 종료 
-}
+#define _CRT_SECURE_NO_WARNINGS
 ```
+- 보안 오류 방지
+
+```
+#pragma warning(disable:6031)
+```
+- 리턴 값 관련 경고 방지
+
+```
+#include <stdio.h>
+```
+- 헤더 파일 선언
+
+```
+int main(void){
+```
+- 메인 함수 호출
+
+```
+char a = 'A';
+```
+- 문자형 변수 a 선언 및 a를 문자형 상수 'A'로 초기화
+
+```
+int b = 36;
+```
+- 정수형 변수 b 선언 및 b를 정수형 상수 36으로 초기화
+
+```
+double c = 3.141592;
+```
+- 실수형 변수 c 선언 및 c를 실수형 상수 3.141592로 초기화 
+
+```
+printf("char형 변수 a의 주소 : %p\n", &a);
+```
+- a의 주소값 자체를 %p와 &기호를 사용해 출력
+
+```
+printf("int형 변수 b의 주소 : %p\n", &b);
+```
+- b의 주소값 자체를 %p와 &기호를 사용해 출력
+
+```
+printf("double형 변수 c의 주소 : %p\n", &c);
+```
+- c의 주소값 자체를 %p와 &기호를 사용해 출력
+
+```
+return 0;}   
+```
+- 코드 종료
+
+## 4-1. 실행 결과
 <img width="512" height="132" alt="ch01_cap" src="https://github.com/user-attachments/assets/4f4fe865-60a5-4a0e-818c-ab12a1ae7987" />
 

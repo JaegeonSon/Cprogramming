@@ -48,4 +48,4 @@ int main(void)
    따라서 `*ptr`을 이용해 125번지에 접근하여 값을 저장하려 하면 허용되지 않은 메모리 영역에 접근하게 되어 실행 중 오류가 발생하고 프로그램이 중단된다.
 
    # 실습과제 4
-   
+   <img width="397" height="92" alt="image" src="https://github.com/user-attachments/assets/1c335ff7-bfa7-49c3-80e4-b75f37bc0151" />

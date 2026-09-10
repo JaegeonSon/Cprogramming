@@ -267,3 +267,9 @@ a++;
 
 ## 실행결과
 <img width="399" height="178" alt="image" src="https://github.com/user-attachments/assets/cc8a6037-23d1-4400-a910-3dd3fd3c953e" />
+
+# 실습과제 5
+
+## 실행결과
+<img width="369" height="256" alt="image" src="https://github.com/user-attachments/assets/9ebace7d-41c4-40e4-8d87-20df05c6bc0a" />
+

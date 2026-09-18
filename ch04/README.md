@@ -223,3 +223,6 @@ printf("문자열의 길이 : %d\n", i);
 ## 실행결과
 <img width="316" height="80" alt="image" src="https://github.com/user-attachments/assets/7aeaefc6-5300-4144-8047-df520353b6c2" />
 
+# 실습과제 4
+## 실행결과
+<img width="374" height="109" alt="image" src="https://github.com/user-attachments/assets/48ba0a6a-07a1-4429-b0c2-7a6749968194" />

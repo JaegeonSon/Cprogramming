@@ -211,11 +211,10 @@ while (str[i] != '\0')
 printf("문자열의 길이 : %d\n", i);
 ```
 
-# 실습과제 2
-## 실행결과
-<img width="322" height="253" alt="image" src="https://github.com/user-attachments/assets/29d1a2d9-aa8f-41fe-b53d-9ffe060843b8" />
-
-
 예를 들어 `str`에 `"Hello"`가 저장되어 있다면 반복문은 `H`, `e`, `l`, `l`, `o` 총 5개의 문자를 검사한 후 `'\0'`에서 종료되므로 `i`의 값은 5가 된다.
 
 따라서 문자열의 길이를 구하는 기본적인 방법은 **문자열을 처음부터 순서대로 탐색하면서 널문자를 만날 때까지 문자의 개수를 세는 것**이다.
+
+# 실습과제 2
+## 실행결과
+<img width="322" height="253" alt="image" src="https://github.com/user-attachments/assets/29d1a2d9-aa8f-41fe-b53d-9ffe060843b8" />

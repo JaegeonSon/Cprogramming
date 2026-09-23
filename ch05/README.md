@@ -65,3 +65,8 @@
 
 ## 수정한 코드의 실행결과
 <img width="309" height="75" alt="image" src="https://github.com/user-attachments/assets/87e173bb-7f84-4598-ae39-826ba07ae5f0" />
+
+# 실습과제 3
+## 실행결과
+<img width="314" height="76" alt="image" src="https://github.com/user-attachments/assets/02d400c9-6039-4f2f-beb3-889e2e6bed8b" />
+

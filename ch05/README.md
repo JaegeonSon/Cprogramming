@@ -427,3 +427,61 @@ main 함수
 
 ## 실행결과
 <img width="329" height="141" alt="image" src="https://github.com/user-attachments/assets/d242ff44-6aa9-49ea-a3f6-edf2a0dee7dc" />
+
+
+# 실습과제 5 
+## 두 가지 함수 호출 방식의 차이 및 선택 이유
+
+### 1. Call-by-value 방식
+
+Call-by-value는 함수에 변수 자체가 아니라 **변수에 저장된 값을 복사하여 전달하는 방식**이다.
+
+따라서 `HundredByValue` 함수의 매개변수 `num`과 `main` 함수의 `num`은 서로 다른 변수이다.
+
+함수 내부에서 매개변수의 값을 변경해도 `main` 함수의 `num`에는 직접적인 영향을 주지 않는다.  
+따라서 계산된 값을 `return`으로 반환한 뒤 다음과 같이 다시 저장해야 한다.
+
+`num = HundredByValue(num);`
+
+---
+
+### 2. Call-by-reference 방식
+
+Call-by-reference 방식에서는 변수의 **주소를 함수에 전달**한다.
+
+`HundredByReference(&num)`과 같이 `num`의 주소를 전달하면 함수의 포인터 매개변수가 `num`의 주소를 가리키게 된다.
+
+따라서 함수 내부에서 `*num`을 이용하면 `main` 함수의 원래 변수에 직접 접근할 수 있으며, 그 값을 100배 한 결과를 원래 변수에 바로 저장할 수 있다.
+
+따라서 별도의 반환값을 다시 대입하지 않아도 된다.
+
+---
+
+### 3. 두 방식의 차이
+
+| 구분 | Call-by-value | Call-by-reference |
+| :---: | :--- | :--- |
+| 전달하는 값 | 변수의 값 | 변수의 주소 |
+| 원래 변수 직접 변경 | 불가능 | 가능 |
+| 결과 전달 방법 | `return`을 이용 | 포인터를 이용하여 직접 변경 |
+| 함수 호출 | `HundredByValue(num)` | `HundredByReference(&num)` |
+| 매개변수 | 일반 변수 | 포인터 변수 |
+
+두 방식 모두 올바르게 작성하면 `num`에 저장된 값의 100배를 얻을 수 있다.
+
+예를 들어 `num`이 `10`인 경우 두 방식 모두 최종적으로 `1000`이라는 결과를 얻을 수 있다.
+
+---
+
+### 4. 선택 이유
+
+이번 문제에서는 **num 변수에 저장되어 있는 값을 100배 한 값으로 직접 변경하는 것**이 목적이므로 Call-by-reference 방식이 문제의 의도에 더 적합하다고 판단하였다.
+
+Call-by-value 방식도 반환값을 다시 `num`에 대입하면 동일한 결과를 얻을 수 있지만, 원래 변수의 값을 함수 내부에서 직접 변경하는 것은 아니다.
+
+반면 Call-by-reference 방식은 `num`의 주소를 전달하여 함수 내부에서 원래 변수에 직접 접근하고 값을 변경할 수 있다.
+
+따라서 **원래 변수 `num`의 저장값 자체를 함수에서 직접 100배로 변경한다는 관점에서는 Call-by-reference 방식을 선택하는 것이 적절하다.**
+
+## 실행결과
+<img width="313" height="96" alt="image" src="https://github.com/user-attachments/assets/b7558875-6f67-4d25-9099-4cfd7ac0f925" />

@@ -424,3 +424,6 @@ main 함수
 `x = 20, y = 30, z = 10`
 
 이 된다.
+
+## 실행결과
+<img width="329" height="141" alt="image" src="https://github.com/user-attachments/assets/d242ff44-6aa9-49ea-a3f6-edf2a0dee7dc" />

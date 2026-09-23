@@ -62,3 +62,6 @@
 따라서 기존 코드는 **값에 의한 호출(Call by Value)** 방식을 사용하기 때문에 `add2` 함수 내부에서 `value`를 변경해도 `main` 함수의 `number`에는 영향을 주지 않는다.
 
 원하는 결과를 얻으려면 `number`의 **주소를 함수에 전달**하고, 함수에서 포인터를 이용하여 해당 주소의 값을 직접 변경해야 한다.
+
+## 수정한 코드의 실행결과
+<img width="309" height="75" alt="image" src="https://github.com/user-attachments/assets/87e173bb-7f84-4598-ae39-826ba07ae5f0" />

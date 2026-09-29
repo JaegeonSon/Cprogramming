@@ -42,3 +42,7 @@ C언어의 함수는 `return`을 통해 한 번에 하나의 값만 반환할 �
 # 실습과제 2
 ## 실행결과
 <img width="300" height="186" alt="image" src="https://github.com/user-attachments/assets/b4081572-fc88-44d5-b8b0-42ef8fa1d564" />
+
+# 실습과제 3
+## 실행결과
+<img width="335" height="287" alt="image" src="https://github.com/user-attachments/assets/977d8d08-4d1c-4a2a-9b52-c3276901bc15" />

@@ -62,3 +62,12 @@ C언어의 함수는 `return`을 통해 한 번에 하나의 값만 반환할 �
 # 도전과제 1(교재 15-1번)
 ## 실행결과
 <img width="352" height="325" alt="image" src="https://github.com/user-attachments/assets/7094e5e2-89cc-471d-9a2b-e531830dd75f" />
+
+# 도전과제 1(교재 15-3번)
+## 실행결과
+<img width="442" height="307" alt="image" src="https://github.com/user-attachments/assets/d1517b1f-e05b-4de9-8cbd-ec48b676d04f" />
+
+# 도전과제 1(교재 15-4번)
+## 실행결과
+<img width="305" height="97" alt="image" src="https://github.com/user-attachments/assets/e802100f-c301-4277-b1fd-ccc713eb4edd" />
+<img width="310" height="101" alt="image" src="https://github.com/user-attachments/assets/87edcd1f-b2ad-4cef-9a3d-a1ee6a52af55" />

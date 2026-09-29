@@ -10,14 +10,15 @@
 
 void get_data(int* arr);
 
-int main(void)
-{
+int main(void){
 	int i, data[5];
 
 	get_data(data);
 
-	for (i = 0; i < 5; i++)
+	for (i = 0; i < 5; i++) {
 		printf("%d번째 data : %d\n", i + 1, data[i]);
+	}
+
 	return 0;
 }
 

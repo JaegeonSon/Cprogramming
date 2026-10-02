@@ -35,6 +35,91 @@
 
 # 실습과제 2
 
+```
+#define _CRT_SECURE_NO_WARNINGS
+```
+- Visual Studio에서 scanf 등의 함수 사용 시 발생하는 보안 관련 경고 방지
+
+```
+#pragma warning(disable:6031)
+```
+- Visual Studio에서 함수의 반환값을 확인하지 않았을 때 발생하는 6031번 경고 방지
+
+```
+#include <stdio.h>
+```
+- printf와 scanf 등의 표준 입출력 함수를 사용하기 위한 헤더 파일 선언
+
+```
+void add2(int* ptr);
+```
+- 정수형 포인터를 매개변수로 받고 반환값이 없는 add2 함수의 원형 선언
+
+```
+int main(void)
+```
+- 프로그램의 실행이 시작되는 main 함수 정의
+
+```
+{
+```
+- main 함수의 코드 블록 시작
+
+```
+int number;
+```
+- 입력받은 정수를 저장할 정수형 변수 number 선언
+
+```
+printf("정수를 입력하세요: ");
+```
+- 정수 입력 안내 문구 출력
+
+```
+scanf("%d", &number);
+```
+- number의 주소를 전달하여 number에 정수 입력
+
+```
+add2(&number);
+```
+- number의 주소를 add2 함수에 전달하여 number의 값 자체를 2 증가
+
+```
+printf("2만큼 증가한 값: %d\n", number);
+```
+- add2 함수에서 변경된 number의 값을 %d를 사용해 출력
+
+```
+return 0;
+```
+- 0을 반환하여 main 함수 정상 종료
+
+```
+}
+```
+- main 함수의 코드 블록 종료
+
+```
+void add2(int* ptr)
+```
+- 정수형 포인터 매개변수 ptr로 주소를 전달받는 add2 함수 정의 시작
+
+```
+{
+```
+- add2 함수의 코드 블록 시작
+
+```
+*ptr += 2;
+```
+- ptr이 가리키는 main 함수의 number 값을 2 증가
+
+```
+}
+```
+- add2 함수의 코드 블록 종료
+
 ## 실행 결과가 원하는 대로 나오지 않는 이유
 
 `add2(number)`와 같이 함수를 호출하면 `main` 함수의 `number` 변수 자체가 전달되는 것이 아니라, `number`에 저장된 **값이 매개변수 `value`에 복사되어 전달**된다.
@@ -67,6 +152,96 @@
 <img width="309" height="75" alt="image" src="https://github.com/user-attachments/assets/87e173bb-7f84-4598-ae39-826ba07ae5f0" />
 
 # 실습과제 3
+```
+#define _CRT_SECURE_NO_WARNINGS
+```
+- Visual Studio에서 scanf 등의 함수 사용 시 발생하는 보안 관련 경고 방지
+
+```
+#pragma warning(disable:6031)
+```
+- Visual Studio에서 함수의 반환값을 확인하지 않았을 때 발생하는 6031번 경고 방지
+
+```
+#include <stdio.h>
+```
+- printf와 scanf 등의 표준 입출력 함수를 사용하기 위한 헤더 파일 선언
+
+```
+int add2(int value);
+```
+- 정수형 매개변수를 받고 정수형 값을 반환하는 add2 함수의 원형 선언
+
+```
+int main(void)
+```
+- 프로그램의 실행이 시작되는 main 함수 정의
+
+```
+{
+```
+- main 함수의 코드 블록 시작
+
+```
+int number;
+```
+- 입력받은 정수를 저장할 정수형 변수 number 선언
+
+```
+printf("정수를 입력 하시오: ");
+```
+- 정수 입력 안내 문구 출력
+
+```
+scanf("%d", &number);
+```
+- number의 주소를 전달하여 number에 정수 입력
+
+```
+number = add2(number);
+```
+- number의 값을 add2에 복사하여 전달하고 함수가 반환한 2만큼 증가한 값을 number에 다시 저장
+
+```
+printf("2만큼 증가한 값: %d\n", number);
+```
+- 반환값을 대입하여 변경된 number의 값을 %d를 사용해 출력
+
+```
+return 0;
+```
+- 0을 반환하여 main 함수 정상 종료
+
+```
+}
+```
+- main 함수의 코드 블록 종료
+
+```
+int add2(int value)
+```
+- 정수형 매개변수 value로 값을 전달받는 add2 함수 정의 시작
+
+```
+{
+```
+- add2 함수의 코드 블록 시작
+
+```
+value += 2;
+```
+- 복사된 매개변수 value만 2 증가시키며 이 문장 자체는 main 함수의 number를 변경하지 않음
+
+```
+return value;
+```
+- 2만큼 증가한 value의 값을 호출한 곳에 반환하고 add2 함수 종료
+
+```
+}
+```
+- add2 함수의 코드 블록 종료
+
 ## 실행결과
 <img width="314" height="76" alt="image" src="https://github.com/user-attachments/assets/02d400c9-6039-4f2f-beb3-889e2e6bed8b" />
 
@@ -425,6 +600,136 @@ main 함수
 
 이 된다.
 
+```
+#define _CRT_SECURE_NO_WARNINGS
+```
+- Visual Studio에서 scanf 등의 함수 사용 시 발생하는 보안 관련 경고 방지
+
+```
+#pragma warning(disable:6031)
+```
+- Visual Studio에서 함수의 반환값을 확인하지 않았을 때 발생하는 6031번 경고 방지
+
+```
+#include <stdio.h>
+```
+- printf와 scanf 등의 표준 입출력 함수를 사용하기 위한 헤더 파일 선언
+
+```
+void swap(int* px, int* py);
+```
+- 정수형 포인터 두 개를 매개변수로 받고 반환값이 없는 swap 함수의 원형 선언
+
+```
+int main(void)
+```
+- 프로그램의 실행이 시작되는 main 함수 정의
+
+```
+{
+```
+- main 함수의 코드 블록 시작
+
+```
+int x, y, z;
+```
+- 입력받을 정수를 저장할 정수형 변수 x, y, z 선언
+
+```
+printf("정수x를 입력 하시오: ");
+```
+- x에 저장할 정수 입력 안내 문구 출력
+
+```
+scanf("%d", &x);
+```
+- x의 주소를 전달하여 x에 정수 입력
+
+```
+printf("정수y를 입력 하시오: ");
+```
+- y에 저장할 정수 입력 안내 문구 출력
+
+```
+scanf("%d", &y);
+```
+- y의 주소를 전달하여 y에 정수 입력
+
+```
+printf("정수z를 입력 하시오: ");
+```
+- z에 저장할 정수 입력 안내 문구 출력
+
+```
+scanf("%d", &z);
+```
+- z의 주소를 전달하여 z에 정수 입력
+
+```
+printf("swap함수 호출 전 x=%d, y=%d, z=%d\n", x, y, z);
+```
+- swap 함수를 호출하기 전 x, y, z의 값을 각각 %d를 사용해 출력
+
+```
+swap(&x, &y);
+```
+- x와 y의 주소를 swap 함수에 전달하여 두 변수의 값 교환
+
+```
+swap(&y, &z);
+```
+- y와 z의 주소를 swap 함수에 전달하여 두 변수의 값 교환
+
+```
+printf("swap함수 호출 후 x=%d, y=%d, z=%d\n", x, y, z);
+```
+- 두 번의 교환 결과를 출력하며 x에는 원래 y의 값, y에는 원래 z의 값, z에는 원래 x의 값이 저장됨
+
+```
+return 0;
+```
+- 0을 반환하여 main 함수 정상 종료
+
+```
+}
+```
+- main 함수의 코드 블록 종료
+
+```
+void swap(int* px, int* py)
+```
+- 정수형 포인터 매개변수 px와 py로 두 변수의 주소를 전달받는 swap 함수 정의 시작
+
+```
+{
+```
+- swap 함수의 코드 블록 시작
+
+```
+int tmp;
+```
+- 교환할 값을 임시로 보관할 정수형 변수 tmp 선언
+
+```
+tmp = *px;
+```
+- px가 가리키는 변수의 값을 tmp에 임시 저장
+
+```
+*px = *py;
+```
+- py가 가리키는 변수의 값을 px가 가리키는 변수에 대입
+
+```
+*py = tmp;
+```
+- tmp에 보관한 값을 py가 가리키는 변수에 대입하여 두 변수의 값 교환 완료
+
+```
+}
+```
+- swap 함수의 코드 블록 종료
+
 ## 실행결과
 <img width="329" height="141" alt="image" src="https://github.com/user-attachments/assets/d242ff44-6aa9-49ea-a3f6-edf2a0dee7dc" />
 
@@ -482,6 +787,141 @@ Call-by-value 방식도 반환값을 다시 `num`에 대입하면 동일한 결�
 반면 Call-by-reference 방식은 `num`의 주소를 전달하여 함수 내부에서 원래 변수에 직접 접근하고 값을 변경할 수 있다.
 
 따라서 **원래 변수 `num`의 저장값 자체를 함수에서 직접 100배로 변경한다는 관점에서는 Call-by-reference 방식을 선택하는 것이 적절하다.**
+
+```
+#define _CRT_SECURE_NO_WARNINGS
+```
+- Visual Studio에서 scanf 등의 함수 사용 시 발생하는 보안 관련 경고 방지
+
+```
+#pragma warning(disable:6031)
+```
+- Visual Studio에서 함수의 반환값을 확인하지 않았을 때 발생하는 6031번 경고 방지
+
+```
+#include <stdio.h>
+```
+- printf와 scanf 등의 표준 입출력 함수를 사용하기 위한 헤더 파일 선언
+
+```
+int HundredByValue(int num);
+```
+- 정수형 값을 받아 정수형 결과를 반환하는 HundredByValue 함수의 원형 선언
+
+```
+void HundredByReference(int* num);
+```
+- 정수형 포인터를 받아 원래 변수의 값을 변경하는 HundredByReference 함수의 원형 선언
+
+```
+int main(void)
+```
+- 프로그램의 실행이 시작되는 main 함수 정의
+
+```
+{
+```
+- main 함수의 코드 블록 시작
+
+```
+int num;
+```
+- 입력값과 계산 결과를 저장할 정수형 변수 num 선언
+
+```
+int original;
+```
+- 입력값을 보관할 정수형 변수 original 선언
+
+```
+printf("정수를 입력하시오: ");
+```
+- 정수 입력 안내 문구 출력
+
+```
+scanf("%d", &num);
+```
+- num의 주소를 전달하여 num에 정수 입력
+
+```
+original = num;
+```
+- 두 방식을 같은 입력값으로 비교하기 위해 num의 값을 original에 보관
+
+```
+num = HundredByValue(num);
+```
+- num의 값을 HundredByValue에 복사하여 전달하고 반환된 100배의 값을 num에 다시 저장
+
+```
+printf("Call-by-value 결과: %d\n", num);
+```
+- 값을 전달하는 방식으로 계산한 num의 값을 %d를 사용해 출력
+
+```
+num = original;
+```
+- original에 보관한 입력값을 num에 다시 대입하여 계산 전 값으로 복원
+
+```
+HundredByReference(&num);
+```
+- num의 주소를 HundredByReference에 전달하여 함수에서 num의 값 자체를 100배로 변경
+
+```
+printf("Call-by-reference 결과: %d\n", num);
+```
+- 주소를 전달하는 방식으로 변경된 num의 값을 %d를 사용해 출력
+
+```
+return 0;
+```
+- 0을 반환하여 main 함수 정상 종료
+
+```
+}
+```
+- main 함수의 코드 블록 종료
+
+```
+int HundredByValue(int num)
+```
+- 정수형 매개변수 num으로 값을 전달받는 HundredByValue 함수 정의 시작
+
+```
+{
+```
+- HundredByValue 함수의 코드 블록 시작
+
+```
+return num * 100;
+```
+- 매개변수 num의 값에 100을 곱한 결과를 호출한 곳에 반환하고 함수 종료
+
+```
+}
+```
+- HundredByValue 함수의 코드 블록 종료
+
+```
+void HundredByReference(int* num)
+```
+- 정수형 포인터 매개변수 num으로 주소를 전달받는 HundredByReference 함수 정의 시작
+
+```
+{
+```
+- HundredByReference 함수의 코드 블록 시작
+
+```
+*num = *num * 100;
+```
+- 포인터 num이 가리키는 main 함수의 num 값에 100을 곱하고 그 결과를 원래 변수에 저장
+
+```
+}
+```
+- HundredByReference 함수의 코드 블록 종료
 
 ## 실행결과
 <img width="313" height="96" alt="image" src="https://github.com/user-attachments/assets/b7558875-6f67-4d25-9099-4cfd7ac0f925" />

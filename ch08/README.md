@@ -21,3 +21,7 @@ double** dptr = &ptr;
 | `*ptr` | 6.28 | `double` |
 | `*dptr` | 100 | `double*` |
 | `**dptr` | 6.28 | `double` |
+
+# 실습과제 2
+## 실행결과
+<img width="396" height="82" alt="image" src="https://github.com/user-attachments/assets/1db55b0e-71bc-40c2-b1a4-9026abc56de1" />

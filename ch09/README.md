@@ -72,3 +72,10 @@ void 포인터는 가리키는 자료형이 정해져 있지 않으므로 해당
 ## 20-1번
 ### 실행결과
 <img width="315" height="612" alt="image" src="https://github.com/user-attachments/assets/1a4896b2-c4df-4401-8201-92f4244b192d" />
+
+## 20-2번
+### 실행결과
+
+## 20-3번
+### 실행결과
+<img width="385" height="177" alt="image" src="https://github.com/user-attachments/assets/ec40fc9d-cb4e-4dcf-a3c2-5dd022d2b538" />

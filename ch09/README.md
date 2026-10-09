@@ -67,3 +67,8 @@ void 포인터는 가리키는 자료형이 정해져 있지 않으므로 해당
 # 실습과제 3
 ## 실행결과
 <img width="675" height="142" alt="image" src="https://github.com/user-attachments/assets/50e07106-6ccd-49b4-8487-b2e99426fb44" />
+
+# 도전과제
+## 20-1번
+### 실행결과
+<img width="315" height="612" alt="image" src="https://github.com/user-attachments/assets/1a4896b2-c4df-4401-8201-92f4244b192d" />

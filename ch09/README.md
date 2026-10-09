@@ -50,6 +50,8 @@ void 포인터는 가리키는 자료형이 정해져 있지 않으므로 해당
 
 함수 포인터를 매개변수로 사용하면 외부에서 전달한 함수를 다른 함수 내부에서 실행할 수 있다.
 ### 실행결과
+<img width="396" height="77" alt="image" src="https://github.com/user-attachments/assets/00716f6e-01c9-4c4f-99ae-4ada692e511a" />
+
 
 ## 2. 함수의 매개변수에 void 포인터를 활용하는 예제
 ### 코드 설명

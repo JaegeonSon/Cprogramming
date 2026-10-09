@@ -58,3 +58,7 @@ void 포인터는 가리키는 자료형이 정해져 있지 않으므로 해당
 - 함수 내부에서는 type의 값에 따라 자료형을 판단한다.
 - void 포인터를 각각 int*, double*, char*로 강제형변환한 후 간접참조 연산자 `*`를 사용하여 실제 값을 출력한다.
 - ### 실행결과
+
+# 실습과제 3
+## 실행결과
+<img width="675" height="142" alt="image" src="https://github.com/user-attachments/assets/50e07106-6ccd-49b4-8487-b2e99426fb44" />

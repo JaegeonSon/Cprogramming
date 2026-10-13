@@ -264,3 +264,7 @@ scanf("%c", &ch)는 입력 버퍼에서 문자 한 개만 읽어오며, 나머�
 입력 버퍼에 읽을 문자가 존재하면 scanf 함수는 새로운 키보드 입력을 기다리지 않고 바로 실행된다.
 
 또한 printf("문자 입력:")에는 줄바꿈 문자가 없기 때문에 두 번째 반복부터는 입력 안내 문구와 출력 결과가 같은 줄에 이어서 나타난다.
+
+# 실습과제 5
+## 실행결과
+<img width="452" height="102" alt="image" src="https://github.com/user-attachments/assets/da806224-dcc4-4d32-b625-67f0a31d42f2" />

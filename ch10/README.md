@@ -135,9 +135,5 @@ blood_type = 'A'
 
 정상적으로 혈액형 'A'가 변수에 저장된다.
 
-## 5. 최종 실행 결과
-
-이름을 입력하시오: 홍길동
-혈액형을 입력하시오: A
-이름: 홍길동
-혈액형: A
+## 5. 실행결과
+<img width="391" height="162" alt="image" src="https://github.com/user-attachments/assets/6557e414-5d95-4f16-958d-19970e468347" />

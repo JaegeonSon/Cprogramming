@@ -26,3 +26,7 @@ fgets() 함수는 엔터키('\n')까지 문자열에 저장할 수 있어 출력
 # 실습과제 4
 ## 실행결과
 <img width="297" height="90" alt="image" src="https://github.com/user-attachments/assets/0c3a9cd1-8bed-4395-bf95-b61eee8e7346" />
+
+# 실습과제 5
+## 실행결과
+<img width="452" height="117" alt="image" src="https://github.com/user-attachments/assets/d1926875-d74e-4d1c-9189-564385432ca7" />

@@ -8,6 +8,7 @@
 
 # 실습과제 3
 ## 실행결과
+<img width="282" height="66" alt="image" src="https://github.com/user-attachments/assets/fe2d4618-a3da-452d-8a26-b73d98c8cd3e" />
 
 # 실습과제 4
 ## 실행결과

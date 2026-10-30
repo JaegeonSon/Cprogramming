@@ -24,15 +24,17 @@ double *pt;
 | `&db` | **105** | **double*** |
 
 # 실습과제 4
+## 코드 줄별 설명 — [ch01.c](ch01.c)
+
 ```
 #define _CRT_SECURE_NO_WARNINGS
 ```
-- 보안 오류 방지
+- Visual Studio에서 일부 CRT 함수 사용 시 발생하는 보안 관련 사용 경고를 억제하는 매크로 정의
 
 ```
 #pragma warning(disable:6031)
 ```
-- 리턴 값 관련 경고 방지
+- Visual Studio에서 함수의 반환값을 확인하지 않았다는 C6031 경고를 억제하는 지시문
 
 ```
 #include <stdio.h>
@@ -40,9 +42,14 @@ double *pt;
 - 헤더 파일 선언
 
 ```
-int main(void){
+int main(void)
 ```
-- 메인 함수 호출
+- 프로그램 실행이 시작되는 main 함수 정의
+
+```
+{
+```
+- main 함수의 코드 블록 시작
 
 ```
 char a = 'A';
@@ -75,9 +82,14 @@ printf("double형 변수 c의 주소 : %p\n", &c);
 - c의 주소값 자체를 %p와 &기호를 사용해 출력
 
 ```
-return 0;}   
+return 0;
 ```
-- 코드 종료
+- 정상 종료 상태 0을 반환하고 main 함수 종료
+
+```
+}
+```
+- main 함수의 코드 블록 종료
 
 ## 4-1. 실행 결과
 <img width="512" height="132" alt="ch01_cap" src="https://github.com/user-attachments/assets/4f4fe865-60a5-4a0e-818c-ab12a1ae7987" />

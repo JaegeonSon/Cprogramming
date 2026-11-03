@@ -53,3 +53,7 @@ struct student s1;
 # 실습과제 2
 ## 실행결과
 <img width="370" height="178" alt="image" src="https://github.com/user-attachments/assets/d3f537ad-6d2a-48d0-b7c9-b150fd311001" />
+
+# 실습과제 2
+## 실행결과
+<img width="304" height="158" alt="image" src="https://github.com/user-attachments/assets/a78eb544-aab7-4c8a-8157-ac3c1e616e2f" />

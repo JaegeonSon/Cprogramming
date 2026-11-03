@@ -49,3 +49,7 @@ struct student s1;
 ```
 
 위 코드에서 `struct student`는 구조체 자료형이고, `s1`은 선언된 구조체 변수이다.
+
+# 실습과제 2
+## 실행결과
+<img width="370" height="178" alt="image" src="https://github.com/user-attachments/assets/d3f537ad-6d2a-48d0-b7c9-b150fd311001" />

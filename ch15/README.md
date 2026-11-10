@@ -9,3 +9,7 @@
 # 실습 과제 3
 ## 실행 결과
 <img width="458" height="180" alt="image" src="https://github.com/user-attachments/assets/2aabec40-90dc-40c3-bc8b-89d3b98e50b9" />
+
+# 실습 과제 4
+## 실행 결과
+<img width="310" height="86" alt="image" src="https://github.com/user-attachments/assets/5eede022-77a6-4bd3-ac01-6325ada85ce8" />

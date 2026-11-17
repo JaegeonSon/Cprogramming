@@ -18,3 +18,6 @@
 
 # 실습과제 4
 ## 실행결과
+<img width="609" height="66" alt="image" src="https://github.com/user-attachments/assets/1520c3df-1eee-455b-be1e-2206847ce584" />
+<img width="714" height="125" alt="image" src="https://github.com/user-attachments/assets/649432fb-fc4b-4e94-ad9b-1b3c8fc24bcf" />
+<img width="288" height="186" alt="image" src="https://github.com/user-attachments/assets/8967ced1-cb84-48ff-87c3-d27b3d450943" />

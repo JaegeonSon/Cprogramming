@@ -1,5 +1,7 @@
 # 실습과제1
 ## 실행결과
+<img width="398" height="115" alt="image" src="https://github.com/user-attachments/assets/015bb601-2965-4cee-b263-8f4016cb29b7" />
+<img width="327" height="166" alt="image" src="https://github.com/user-attachments/assets/187c313b-aa50-4f12-b696-f3417775a378" />
 
 # 실습과제2
 ## 실행결과

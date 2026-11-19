@@ -11,6 +11,9 @@
 
 # 실습과제3
 ## 실행결과
+<img width="612" height="66" alt="image" src="https://github.com/user-attachments/assets/f2d542f3-ca0a-42c4-8281-713015174d8a" />
+<img width="293" height="184" alt="image" src="https://github.com/user-attachments/assets/d321feb5-7924-418b-a63b-0f43aa918b9e" />
+<img width="312" height="183" alt="image" src="https://github.com/user-attachments/assets/6e0d6dfe-a82a-4647-9f40-afef6f8b52d5" />
 
 # 실습과제4
 ## 문제: 예제4-1의 실행 결과가 비정상적으로 출력되는 이유를 설명하시오.

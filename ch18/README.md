@@ -5,6 +5,9 @@
 
 # 실습과제2
 ## 실행결과
+<img width="623" height="58" alt="image" src="https://github.com/user-attachments/assets/edef34bc-4157-47cb-9ec7-ab838e2317fb" />
+<img width="293" height="184" alt="image" src="https://github.com/user-attachments/assets/d321feb5-7924-418b-a63b-0f43aa918b9e" />
+<img width="325" height="157" alt="image" src="https://github.com/user-attachments/assets/5dd2d23c-a8ab-4faf-b98d-cacfda781801" />
 
 # 실습과제3
 ## 실행결과

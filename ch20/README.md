@@ -117,6 +117,7 @@ https://www.programiz.com/c-programming/c-preprocessor-macros
    계산된 원의 넓이를 소수점 둘째 자리까지 출력한다.
 
 ### 실행 결과
+<img width="400" height="112" alt="image" src="https://github.com/user-attachments/assets/41aa5deb-4504-4444-9c75-38468d200a42" />
 
 ## 3. 결론
 

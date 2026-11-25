@@ -123,4 +123,43 @@ https://www.programiz.com/c-programming/c-preprocessor-macros
 매크로 상수를 사용하면 3.1415라는 숫자를 PI라는 의미 있는 이름으로 표현할 수 있어 코드의 가독성이 향상된다. 또한 원주율의 정밀도를 변경해야 할 경우 매크로 정의 부분만 수정하면 해당 매크로를 사용하는 모든 코드에 변경 사항이 반영되므로 유지보수가 편리하다.
 
 # 실습과제 4
-## 실행결과
+```c
+// **********************************************
+// 제 목 : 매크로 상수를 활용한 방향 출력
+// 날 짜 : 2026년 11월 26일
+// 작성자 : 2600099 손재건
+// **********************************************
+
+#define _CRT_SECURE_NO_WARNINGS
+#pragma warning(disable:6031)
+#include <stdio.h>
+
+#define UP 10
+#define DOWN 20
+#define LEFT 30
+#define RIGHT 40
+
+int main() {
+    int direction = UP;
+
+    switch (direction) {
+    case UP:
+        printf("현재방향: 위");
+        break;
+
+    case DOWN:
+        printf("현재방향: 아래");
+        break;
+
+    case LEFT:
+        printf("현재방향: 왼쪽");
+        break;
+
+    case RIGHT:
+        printf("현재방향: 오른쪽");
+        break;
+    }
+
+    return 0;
+}
+```

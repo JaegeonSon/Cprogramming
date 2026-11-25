@@ -43,6 +43,9 @@ Visual Studio에서 프로젝트를 빌드한 후 파일 탐색기를 이용하�
 ※ 실제 파일 위치는 Visual Studio의 빌드 설정에 따라 달라질 수 있다.
 
 ## 파일 탐색기 확인 사진
+<img width="992" height="480" alt="image" src="https://github.com/user-attachments/assets/8506d8ff-dd7a-4947-b17d-f5a7779a3633" />
+<img width="1572" height="366" alt="image" src="https://github.com/user-attachments/assets/01279caa-2815-487f-8be2-3fbcd304bc99" />
+<img width="1097" height="607" alt="image" src="https://github.com/user-attachments/assets/a32a68e2-0e90-4e54-8510-525860ba8faf" />
 
 # 실습과제 2번
 
